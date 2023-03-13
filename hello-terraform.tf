@@ -37,3 +37,7 @@ resource "aws_dynamodb_table" "hello-table" {
   }
 
 }
+
+output "table-arn" {
+  value = aws_dynamodb_table.hello-table.arn
+}
