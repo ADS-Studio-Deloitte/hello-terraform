@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
   profile = var.profile
-  region  = "eu-central-1"
+  region  = "eu-west-1"
 }
 
 variable "profile" {
